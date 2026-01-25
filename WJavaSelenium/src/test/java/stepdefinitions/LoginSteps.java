@@ -9,13 +9,17 @@ public class LoginSteps {
 
     @Given("user is on login page")
     public void user_is_on_login_page() {
-        System.out.println("Navigate to google page");
+        System.out.println("Navigate to google page1");
         driver.get("https://www.google.com/");
+        driver.quit();
         System.out.println("Navigate to login page");
     }
 
     @When("user enters valid credentials")
     public void user_enters_valid_credentials() {
+        System.out.println("Navigate to google page2");
+        driver.get("https://www.google.com/");
+        driver.quit();
         System.out.println("Enter credentials");
     }
 
