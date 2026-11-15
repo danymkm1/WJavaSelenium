@@ -1,0 +1,28 @@
+# Maven
+/target/
+*/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Selenium / browser driver artifacts
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
